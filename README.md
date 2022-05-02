@@ -15,6 +15,8 @@ Classes:
   - int userId
   - string name
   - enum role 
-  - vector<int> projectsAssigned
+  - vector\<int> projectsAssigned
 - TrackingBoard
-  - vector<Issue> issues 
+  - vector\<Issue> issues 
+  - void addIssue(Issue)
+  - void deleteIssue(Issue) 
